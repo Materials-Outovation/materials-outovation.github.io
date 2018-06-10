@@ -149,4 +149,8 @@ jQuery(document).ready(function( $ ) {
     items: 1
   });
 
+  $(window).on('resize', function() {
+    $("#main").css("margin-bottom", $("#footer").height());
+  });
+
 });
