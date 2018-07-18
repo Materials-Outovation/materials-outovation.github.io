@@ -1362,7 +1362,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
 }
 
+#footer .motto span.second-line {
+  display: inline-block;
+}
+
 @media (min-width: 576px) {
+  #footer .motto {
+    font-size: 22px;
+  }
+
+  #footer .motto .font-weight-bold {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 768px) {
   #footer .motto {
     font-size: 26px;
   }
@@ -1370,6 +1384,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #footer .motto .font-weight-bold {
     font-size: 38px;
   }
+
 }
 
 #footer .copyright {
