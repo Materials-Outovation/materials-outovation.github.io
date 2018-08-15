@@ -143,7 +143,7 @@ jQuery(document).ready(function( $ ) {
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout: 6000,
+    autoplayTimeout: 9000,
     dots: true,
     loop: true,
     items: 1
